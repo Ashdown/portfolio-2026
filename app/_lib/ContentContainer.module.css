@@ -1,0 +1,8 @@
+.contentContainer {
+  min-height: 100vh;
+  background-color: #f5f8ff;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cline x1='80' y1='0' x2='80' y2='80' stroke='rgba(80,120,220,0.45)' stroke-width='1' stroke-dasharray='5,5'/%3E%3Cline x1='0' y1='80' x2='80' y2='80' stroke='rgba(80,120,220,0.45)' stroke-width='1' stroke-dasharray='5,5'/%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Cline x1='16' y1='0' x2='16' y2='16' stroke='rgba(80,120,220,0.15)' stroke-width='1' stroke-dasharray='3,3'/%3E%3Cline x1='0' y1='16' x2='16' y2='16' stroke='rgba(80,120,220,0.15)' stroke-width='1' stroke-dasharray='3,3'/%3E%3C/svg%3E");
+  background-position: center top;
+}

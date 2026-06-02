@@ -6,7 +6,7 @@ export default function Page() {
       <h1 id="about-me-section">About Me</h1>
       <img src="/images/rory-devane.jpeg" height="512" width="512"/>
       <p>Hi! I'm Rory, and I am a web developer based in London.</p>
-      <p>Recently I've worked for a number of exciting start ups such
+      <p>Recently I've worked for a number of exciting start upsuch
         as <strong>CarbonRe</strong> and <strong>evroc</strong>, as well as high profile broadcast companies like
         the <strong>BBC</strong> and <strong>Sky Broadcasting</strong>.</p>
       <p>I have <strong>9 years</strong> experience working with Reactive frameworks such

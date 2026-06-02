@@ -1,4 +1,6 @@
 import './reset.css';
+import './globals.css';
+import ContentContainer from './_lib/ContentContainer';
 
 export default function RootLayout({
                                      children,
@@ -11,15 +13,17 @@ export default function RootLayout({
       <title>Rory Devane</title>
     </head>
     <body>
-    <ul>
-      <li>
-        <a href="#about-me-section">About Me</a>
-      </li>
-      <li>
-        <a href="#links-section">Links</a>
-      </li>
-    </ul>
-    {children}
+    <ContentContainer>
+      <ul>
+        <li>
+          <a href="#about-me-section">About Me</a>
+        </li>
+        <li>
+          <a href="#links-section">Links</a>
+        </li>
+      </ul>
+      {children}
+    </ContentContainer>
     </body>
     </html>
   );
