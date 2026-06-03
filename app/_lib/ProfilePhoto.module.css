@@ -3,4 +3,6 @@
   margin: calc(2 * var(--grid)) auto 0;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid var(--white);
+  box-shadow: var(--drop-shadow);
 }

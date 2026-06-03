@@ -5,10 +5,10 @@ export default function GlobalNavigation() {
   return (
     <ul className={styles.nav}>
       <li>
-        <Link href="#about-me-section">About Me</Link>
+        <Link className={styles.link} href="#about-me-section">About Me</Link>
       </li>
       <li>
-        <Link href="#links-section">Links</Link>
+        <Link className={styles.link} href="#links-section">Links</Link>
       </li>
     </ul>
   );

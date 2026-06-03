@@ -1,6 +1,9 @@
 :root {
   --grid: 8px;
-  --white: #ffffff;
-  --black: #000000;
-  font-family: Helvetica, sans-serif;
+  --white: rgba(255, 255, 255);
+  --white-transparent: rgba(255, 255, 255, 0.5);
+  --black: rgba(0, 0, 0);
+  --drop-shadow: 0 16px 16px rgba(0, 0, 0, 0.25);
+  --global-navigation-height: calc(var(--grid) * 10);
+  --transition: all 0.2s ease;
 }

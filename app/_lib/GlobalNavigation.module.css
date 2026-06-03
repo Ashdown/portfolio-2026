@@ -1,7 +1,25 @@
 .nav {
-  background-color: var(--white);
+  background-color: var(--white-transparent);
   display: flex;
   flex-direction: row;
   gap: calc(2 * var(--grid));
   padding: 12px calc(3 * var(--grid));
+  top: 0;
+  right: 0;
+  left: 0;
+  height: var(--global-navigation-height);
+  position: fixed;
+  /*box-shadow: var(--drop-shadow);*/
+}
+
+.link {
+  padding: var(--grid);
+  background-color: var(--white);
+  display: inline-block;
+  border: 2px solid var(--black);
+  transition: var(--transition);
+  &:hover {
+    color: var(--white);
+    background-color: var(--black);
+  }
 }

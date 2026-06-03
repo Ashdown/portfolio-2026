@@ -1,0 +1,5 @@
+.heading {
+  text-align: center;
+  font-size: calc(10 * var(--grid));
+  margin-top: calc(2 * var(--grid));
+}
