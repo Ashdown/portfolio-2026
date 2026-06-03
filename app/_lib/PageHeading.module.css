@@ -1,0 +1,5 @@
+.pageHeading {
+  text-align: center;
+  font-size: calc(16 * var(--grid));
+  margin-top: calc(2 * var(--grid));
+}

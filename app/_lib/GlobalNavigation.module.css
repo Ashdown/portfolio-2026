@@ -1,0 +1,7 @@
+.nav {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  gap: calc(2 * var(--grid));
+  padding: 12px calc(3 * var(--grid));
+}

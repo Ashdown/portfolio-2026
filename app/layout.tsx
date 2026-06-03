@@ -1,6 +1,7 @@
 import './reset.css';
 import './globals.css';
 import ContentContainer from './_lib/ContentContainer';
+import GlobalNavigation from './_lib/GlobalNavigation';
 
 export default function RootLayout({
                                      children,
@@ -14,14 +15,7 @@ export default function RootLayout({
     </head>
     <body>
     <ContentContainer>
-      <ul>
-        <li>
-          <a href="#about-me-section">About Me</a>
-        </li>
-        <li>
-          <a href="#links-section">Links</a>
-        </li>
-      </ul>
+      <GlobalNavigation />
       {children}
     </ContentContainer>
     </body>

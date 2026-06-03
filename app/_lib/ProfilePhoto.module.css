@@ -1,0 +1,6 @@
+.profilePhoto {
+  display: block;
+  margin: calc(2 * var(--grid)) auto 0;
+  border-radius: 50%;
+  object-fit: cover;
+}

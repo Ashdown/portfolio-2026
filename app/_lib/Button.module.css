@@ -1,0 +1,18 @@
+.button {
+  height: calc(var(--grid) * 8);
+  padding-right: calc(var(--grid) * 4);
+  padding-left: calc(var(--grid) * 4);
+  font-size: calc(var(--grid) * 4);
+  line-height: 2em;
+  background-color: black;
+  color: var(--white);;
+  border-radius: calc(var(--grid) * 4);
+  border: 1px solid var(--black);
+  display: inline-block;
+  min-width: calc(var(--grid) * 35);
+  text-align: center;
+  &:hover {
+    color: var(--black);
+    background-color: var(--white);
+  }
+}

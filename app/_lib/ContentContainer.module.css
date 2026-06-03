@@ -1,5 +1,7 @@
 .contentContainer {
   min-height: 100vh;
+  margin-left: calc(2 * var(--grid));
+  margin-right: calc(2 * var(--grid));
 }
 
 .background {

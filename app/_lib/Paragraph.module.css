@@ -1,0 +1,5 @@
+.paragraph {
+  font-size: calc(4 * var(--grid));
+  margin-top: calc(4 * var(--grid));
+  line-height: 1.2em;
+}
