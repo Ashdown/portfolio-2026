@@ -9,7 +9,7 @@ export default function LinksSection() {
       <SectionHeading>Links</SectionHeading>
       <ul id="links-section" className={styles.linksSection}>
         <li className={styles.item}>
-          <Button><FaDownload className={styles.icon}/> Download CV</Button>
+          <Button href="/docs/rory-devane-cv.pdf" download="rory-devane-cv.pdf"><FaDownload className={styles.icon}/> Download CV</Button>
         </li>
         <li className={styles.item}>
           <Button href="https://www.linkedin.com/in/rory-devane-7b65724/"><FaLinkedin className={styles.icon}/> Linked
