@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import './reset.css';
 import './globals.css';
 import ContentContainer from './_lib/ContentContainer';
@@ -22,6 +23,7 @@ export default function RootLayout({
       <GlobalNavigation/>
       {children}
     </ContentContainer>
+    <Analytics />
     </body>
     </html>
   );
