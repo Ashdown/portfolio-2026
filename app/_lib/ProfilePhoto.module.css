@@ -6,3 +6,10 @@
   border: 2px solid var(--white);
   box-shadow: var(--drop-shadow);
 }
+
+@media (--min-tablet-width) {
+  .profilePhoto {
+    margin-top: calc(3 * var(--grid))
+  }
+}
+

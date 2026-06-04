@@ -10,6 +10,7 @@
 
 @media (--min-tablet-width) {
   .heading {
-    font-size: calc(10 * var(--grid));
+    margin-top: calc(6 * var(--grid));
+    font-size: calc(12 * var(--grid));
   }
 }

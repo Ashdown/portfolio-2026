@@ -23,5 +23,16 @@
 @media (--min-tablet-width) {
   .contentContainer {
     padding-top: var(--global-navigation-height);
+    margin-left: calc(3 * var(--grid));
+    margin-right: calc(3 * var(--grid));
+    padding-bottom: calc(var(--grid) * 6);
+  }
+}
+
+@media (--min-desktop-width) {
+  .contentContainer {
+    margin-left: calc(8 * var(--grid));
+    margin-right: calc(8 * var(--grid));
+    padding-bottom: calc(var(--grid) * 8);
   }
 }

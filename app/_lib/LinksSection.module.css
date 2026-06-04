@@ -12,3 +12,9 @@
 .icon {
   display: inline;
 }
+
+@media (--min-tablet-width) {
+  .linksSection {
+    margin-top: calc(6 * var(--grid));
+  }
+}

@@ -1,6 +1,6 @@
 .pageHeading {
   text-align: center;
-  font-size: calc(8 * var(--grid));
+  font-size: calc(10 * var(--grid));
   margin-top: calc(2 * var(--grid));
   color: var(--white);
   font-weight: 800;
@@ -10,7 +10,8 @@
 
 @media (--min-tablet-width) {
   .pageHeading {
-    font-size: calc(16 * var(--grid));
+    margin-top: calc(3 * var(--grid));
+    font-size: calc(20 * var(--grid));
   }
 }
 
