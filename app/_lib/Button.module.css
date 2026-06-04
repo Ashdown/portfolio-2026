@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   gap: calc(var(--grid) * 1);
-  min-width: calc(var(--grid) * 35);
+  min-width: calc(var(--grid) * 38);
   box-shadow: var(--drop-shadow);
   transition: var(--transition);
   &:hover {

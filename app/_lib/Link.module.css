@@ -1,3 +1,13 @@
 .link {
-  font-size: calc(4 * var(--grid));
+  font-size: calc(3 * var(--grid));
+}
+
+@media (--min-tablet-width) {
+  /* TODO */
+}
+
+@media (--min-desktop-width) {
+  .link {
+    font-size: calc(4 * var(--grid));
+  }
 }

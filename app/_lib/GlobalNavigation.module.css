@@ -2,14 +2,13 @@
   background-color: var(--white-transparent);
   display: flex;
   flex-direction: row;
-  gap: calc(2 * var(--grid));
-  padding: 12px calc(3 * var(--grid));
+  gap: var(--grid);
+  padding: var(--grid) calc(2 * var(--grid));
   top: 0;
   right: 0;
   left: 0;
-  height: var(--global-navigation-height);
+  height: var(--global-navigation-height-mobile);
   position: fixed;
-  /*box-shadow: var(--drop-shadow);*/
 }
 
 .link {
@@ -22,4 +21,16 @@
     color: var(--white);
     background-color: var(--black);
   }
+}
+
+@media (--min-tablet-width) {
+  .nav {
+    gap: calc(2 * var(--grid));
+    padding: var(--grid) calc(3 * var(--grid));
+    height: var(--global-navigation-height);
+  }
+}
+
+@media (--min-desktop-width) {
+  /* TODO */
 }
