@@ -1,0 +1,9 @@
+/*
+optimal device sizes
+480px: mobile
+1024: tablet
+1400+: desktop
+*/
+
+@custom-media --min-tablet-width (min-width: 1025px);
+@custom-media --min-desktop-width (min-width: 1377px);

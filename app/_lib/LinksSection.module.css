@@ -1,6 +1,7 @@
 .linksSection {
   margin-top: calc(4 * var(--grid));
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: calc(var(--grid) * 2);
   list-style: none;

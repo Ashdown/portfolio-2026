@@ -14,11 +14,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={urbanist.className}>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <title>Rory Devane</title>
     </head>
     <body>
     <ContentContainer>
-      <GlobalNavigation />
+      <GlobalNavigation/>
       {children}
     </ContentContainer>
     </body>
