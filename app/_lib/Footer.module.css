@@ -1,0 +1,24 @@
+.footer {
+  margin-top: calc(var(--grid) * 4);
+  padding-bottom: calc(var(--grid) * 4);
+}
+
+.para {
+  font-size: calc(2 * var(--grid));
+  line-height: 1em;
+  text-align: center;
+}
+
+@media (--min-tablet-width) {
+  .footer {
+    margin-top: calc(var(--grid) * 6);
+    padding-bottom: calc(var(--grid) * 6);
+  }
+}
+
+@media (--min-desktop-width) {
+  .footer {
+    margin-top: calc(var(--grid) * 8);
+    padding-bottom: calc(var(--grid) * 8);
+  }
+}

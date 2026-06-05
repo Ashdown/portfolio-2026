@@ -4,6 +4,7 @@ import './globals.css';
 import ContentContainer from './_lib/ContentContainer';
 import GlobalNavigation from './_lib/GlobalNavigation';
 import { Urbanist } from 'next/font/google'
+import Footer from "./_lib/Footer";
 
 const urbanist = Urbanist()
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <GlobalNavigation/>
       {children}
     </ContentContainer>
+    <Footer/>
     <Analytics />
     </body>
     </html>
