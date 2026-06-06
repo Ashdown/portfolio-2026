@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: calc(1 * var(--grid));
+  list-style: none;
+  margin-top: calc(3 * var(--grid));
+}
+
+@media(--min-tablet-width) {
+  .list {
+    margin-top: calc(4 * var(--grid));
+    gap: calc(2 * var(--grid));
+  }
+}

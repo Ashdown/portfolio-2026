@@ -1,0 +1,20 @@
+.skill {
+  display: inline-block;
+  font-size: calc(2 * var(--grid));
+  line-height: 1.2em;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  /*box-shadow: var(--drop-shadow);*/
+  padding: var(--grid) calc(2 * var(--grid));
+  border-radius: calc(3 * var(--grid));
+}
+
+.skillTitle {
+  font-weight: 800;
+}
+
+@media (--min-tablet-width) {
+  .skill {
+    font-size: calc(3 * var(--grid));
+  }
+}

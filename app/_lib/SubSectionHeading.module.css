@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+  font-size: calc(4 * var(--grid));
+  margin-top: calc(4 * var(--grid));
+  font-weight: 800;
+}
+
+@media (--min-tablet-width) {
+  .heading {
+    margin-top: calc(5 * var(--grid));
+  }
+}
