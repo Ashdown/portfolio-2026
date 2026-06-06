@@ -5,7 +5,7 @@ import Skill from "@/app/_lib/Skill";
 
 export default function SkillsSection () {
   return (
-    <>
+    <div id="skills-section">
       <SectionHeading>Key Skills</SectionHeading>
       <SubSectionHeading>Frontend Technologies</SubSectionHeading>
       <ul className={styles.list}>
@@ -40,6 +40,6 @@ export default function SkillsSection () {
         <Skill years={3}>Technical Leadership</Skill>
         <Skill years={1}>Product Ownership</Skill>
       </ul>
-    </>
+    </div>
   )
 }

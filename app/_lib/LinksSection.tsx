@@ -5,9 +5,9 @@ import SectionHeading from "./SectionHeading";
 
 export default function LinksSection() {
   return (
-    <>
+    <div id="links-section">
       <SectionHeading>Links</SectionHeading>
-      <ul id="links-section" className={styles.linksSection}>
+      <ul className={styles.linksSection}>
         <li className={styles.item}>
           <Button href="/docs/rory-devane-cv.pdf" download="rory-devane-cv.pdf"><FaDownload className={styles.icon}/> Download CV</Button>
         </li>
@@ -19,6 +19,6 @@ export default function LinksSection() {
           <Button href="https://github.com/Ashdown"><FaGithub className={styles.icon}/> Github</Button>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
