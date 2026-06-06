@@ -1,11 +1,12 @@
-.heading {
+.paragraph {
+  font-weight: 800;
   font-size: calc(4 * var(--grid));
   margin-top: calc(4 * var(--grid));
-  font-weight: 800;
+  line-height: 1.2em;
 }
 
 @media (--min-tablet-width) {
-  .heading {
-    margin-top: calc(5 * var(--grid));
+  .paragraph {
+    margin-top: calc(6 * var(--grid));
   }
 }

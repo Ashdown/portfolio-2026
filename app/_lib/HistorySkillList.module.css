@@ -1,3 +1,11 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(1 * var(--grid));
+  list-style: none;
+  margin-top: calc(3 * var(--grid));
+}
+
 .skill {
   display: inline-block;
   font-size: calc(2 * var(--grid));
@@ -6,14 +14,4 @@
   border: 2px solid var(--black);
   padding: var(--grid) calc(2 * var(--grid));
   border-radius: calc(3 * var(--grid));
-}
-
-.skillTitle {
-  font-weight: 800;
-}
-
-@media (--min-tablet-width) {
-  .skill {
-    font-size: calc(3 * var(--grid));
-  }
 }

@@ -3,6 +3,7 @@ import PageHeading from './_lib/PageHeading';
 import Paragraph from './_lib/Paragraph';
 import LinksSection from './_lib/LinksSection';
 import SkillsSection from "@/app/_lib/SkillsSection";
+import HistorySection from "@/app/_lib/HistorySection";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
       <Paragraph>Scroll down if you want to learn more about me, or feel free to reach out if you want to get in touch!</Paragraph>
       <LinksSection />
       <SkillsSection />
+      <HistorySection/>
     </>
   );
 }

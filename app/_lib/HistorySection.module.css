@@ -1,0 +1,26 @@
+.item {
+  border-left: var(--grid) solid var(--black);
+  margin-left: calc(2 * var(--grid));
+  padding-right: calc(8 * var(--grid));
+  padding-bottom: calc(5 * var(--grid));
+  padding-left: calc(5 * var(--grid));
+  position: relative;
+}
+.item::before {
+  display: block;
+  content: '';
+  width: calc(6 * var(--grid));
+  height: calc(6 * var(--grid));
+  border: var(--grid) solid var(--black);
+  background-color: var(--white);
+  position: absolute;
+  top: calc(-1 * var(--grid));
+  left: calc(-3.5 * var(--grid));
+  border-radius: calc(3 * var(--grid));
+}
+.item:last-child {
+  border-left-color: transparent;
+}
+.companyHeading {
+  margin-top: 0;
+}

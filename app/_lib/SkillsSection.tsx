@@ -7,7 +7,7 @@ export default function SkillsSection () {
   return (
     <div id="skills-section">
       <SectionHeading>Key Skills</SectionHeading>
-      <SubSectionHeading>Frontend Technologies</SubSectionHeading>
+      <SubSectionHeading className={styles.heading}>Frontend Technologies</SubSectionHeading>
       <ul className={styles.list}>
         <Skill years={8}>React</Skill>
         <Skill years={3.5}>Redux</Skill>
@@ -21,20 +21,20 @@ export default function SkillsSection () {
         <Skill years={1}>Tailwind CSS</Skill>
         <Skill years={3}>Storybook</Skill>
       </ul>
-      <SubSectionHeading>Backend Languages</SubSectionHeading>
+      <SubSectionHeading className={styles.heading}>Backend Languages</SubSectionHeading>
       <ul className={styles.list}>
         <Skill years={1}>Ruby</Skill>
         <Skill years={2}>GraphQL</Skill>
         <Skill years={2.5}>MongoDB</Skill>
         <Skill years={3.5}>PHP</Skill>
       </ul>
-      <SubSectionHeading>Cloud Services and Hosting Providers</SubSectionHeading>
+      <SubSectionHeading className={styles.heading}>Cloud Services and Hosting Providers</SubSectionHeading>
       <ul className={styles.list}>
         <Skill years={2.5}>AWS (Amazon Web Services)</Skill>
         <Skill years={1}>GCP (Google Cloud Platform)</Skill>
         <Skill years={1}>evroc Cloud Services</Skill>
       </ul>
-      <SubSectionHeading>Non Technical Skills</SubSectionHeading>
+      <SubSectionHeading className={styles.heading}>Non Technical Skills</SubSectionHeading>
       <ul className={styles.list}>
         <Skill years={3}>Line Management</Skill>
         <Skill years={3}>Technical Leadership</Skill>
