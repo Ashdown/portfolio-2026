@@ -13,6 +13,9 @@ export default function GlobalNavigation() {
       <li>
         <Link className={styles.link} href="#skills-section">Skills</Link>
       </li>
+      <li>
+        <Link className={styles.link} href="#history-section">History</Link>
+      </li>
     </ul>
   );
 }
