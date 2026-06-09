@@ -1,5 +1,12 @@
+:root {
+  --bullet-point-height: calc(4 * var(--grid));
+  --bullet-point-height-tablet: calc(6 * var(--grid));
+}
+
+.list {
+  margin-top: calc(4 * var(--grid));
+}
 .item {
-  border-left: var(--grid) solid var(--black);
   margin-left: calc(2 * var(--grid));
   padding-right: calc(8 * var(--grid));
   padding-bottom: calc(5 * var(--grid));
@@ -9,18 +16,50 @@
 .item::before {
   display: block;
   content: '';
-  width: calc(6 * var(--grid));
-  height: calc(6 * var(--grid));
+  width: var(--grid);
+  background-color: var(--black);
+  position: absolute;
+  top: calc(0.5 * var(--bullet-point-height));
+  left: calc(-1 * var(--grid));
+  bottom: calc(-0.5 * var(--bullet-point-height));
+}
+.item:last-child::before {
+  display: none;
+}
+
+.item::after {
+  display: block;
+  content: '';
+  width: var(--bullet-point-height);
+  height: var(--bullet-point-height);
   border: var(--grid) solid var(--black);
   background-color: var(--white);
   position: absolute;
-  top: calc(-1 * var(--grid));
-  left: calc(-3.5 * var(--grid));
+  top: 0;
+  left: calc(-2.5 * var(--grid));
   border-radius: calc(3 * var(--grid));
-}
-.item:last-child {
-  border-left-color: transparent;
 }
 .companyHeading {
   margin-top: 0;
+}
+
+@media(--min-tablet-width) {
+  .item::before {
+    top: calc(0.5 * var(--bullet-point-height-tablet));
+    bottom: calc(-0.5 * var(--bullet-point-height-tablet));
+  }
+  .item::after {
+    width: var(--bullet-point-height-tablet);
+    height: var(--bullet-point-height-tablet);
+    top: calc(-1 * var(--grid));
+    left: calc(-3.5 * var(--grid));
+  }
+}
+
+@media(--min-desktop-width) {
+  .list {
+    margin-right: auto;
+    margin-left: auto;
+    width: calc(150 * var(--grid))
+  }
 }

@@ -1,5 +1,5 @@
 .paragraph {
-  font-size: calc(4 * var(--grid));
+  font-size: calc(3 * var(--grid));
   margin-top: calc(4 * var(--grid));
   line-height: 1.2em;
 }
@@ -7,5 +7,6 @@
 @media (--min-tablet-width) {
   .paragraph {
     margin-top: calc(6 * var(--grid));
+    font-size: calc(4 * var(--grid));
   }
 }

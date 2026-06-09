@@ -8,4 +8,5 @@
   --global-navigation-height-mobile: calc(var(--grid) * 7.5);
   --global-navigation-height: calc(var(--grid) * 10);
   --transition: all 0.2s ease;
+  --z-index-navigation: 100;
 }

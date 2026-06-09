@@ -9,7 +9,7 @@ export default function HistorySection() {
   return (
     <div>
       <SectionHeading>History</SectionHeading>
-      <ul>
+      <ul className={styles.list}>
         <li className={styles.item}>
           <SubSectionHeading className={styles.companyHeading}>evroc</SubSectionHeading>
           <Paragraph>

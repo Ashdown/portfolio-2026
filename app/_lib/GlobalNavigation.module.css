@@ -9,6 +9,7 @@
   left: 0;
   height: var(--global-navigation-height-mobile);
   position: fixed;
+  z-index: var(--z-index-navigation);
 }
 
 .link {

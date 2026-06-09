@@ -15,3 +15,9 @@
   padding: var(--grid) calc(2 * var(--grid));
   border-radius: calc(3 * var(--grid));
 }
+
+@media (--min-desktop-width) {
+  .skill {
+    font-size: calc(2.5 * var(--grid));
+  }
+}
